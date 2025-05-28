@@ -1,7 +1,5 @@
 import { useState } from "react";
-import type {TodoFormProps} from "../type.ts";
-
-
+import type { TodoFormProps } from "../types.ts";
 
 const TodoForm = ({ dispatch }: TodoFormProps) => {
 
