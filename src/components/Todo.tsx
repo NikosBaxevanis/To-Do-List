@@ -35,6 +35,9 @@ const todoReducer = (state: TodoProps[], action: Action): TodoProps[] => {
 
 const Todo = () =>{
     const [todos, dispatch] = useReducer(todoReducer, []);
+
+    console.log(todos);
+
     return (
         <>
             <div className="max-w-sm mx-auto p-6">

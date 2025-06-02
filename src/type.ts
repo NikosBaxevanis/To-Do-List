@@ -19,3 +19,19 @@ export type TodoListProps = {
     dispatch: React.Dispatch<Action>
 }
 
+// export type Todo = {
+//     id:number;
+//     text:string;
+//     completed:boolean;
+// }
+//
+// export type TodoNewList= {
+//     todos: [{
+//         id:number,
+//         text:string,
+//         completed:boolean
+//     }]
+//     dispatch: React.Dispatch<Action>
+// }
+
+
